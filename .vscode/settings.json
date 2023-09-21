@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.jsx": "javascriptreact",
+    "cmath": "cpp",
+    "*.tcc": "cpp",
+    "limits": "cpp",
+    "type_traits": "cpp"
+  }
+}
