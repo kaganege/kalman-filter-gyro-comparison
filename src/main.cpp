@@ -24,7 +24,7 @@ MPU6050 gyro;
 void setup()
 {
   for (int i = 0; i < Motions::LENGTH; i++)
-    filters[i] = KalmanFilter(1000, 1000, 0.01);
+    filters[i] = KalmanFilter(1000, 800, 0.01);
 
   Serial.begin(115200);
 
